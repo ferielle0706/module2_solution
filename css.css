@@ -1,0 +1,108 @@
+h1 {
+  		text-align:center;
+  		font-family:sans-serif;
+  	} 
+
+
+    #leftbox { 
+        float:left;  
+        background:gray;
+        margin: 30px 15px 30px 30px; 
+        height:200px; 
+        border: 2px solid black;
+        font-family:sans-serif;
+        } 
+    #middlebox{ 
+        float:left;  
+        background:gray;
+        margin: 30px 15px 30px 15px;  
+        height:200px;
+        border: 2px solid black; 
+        font-family:sans-serif;
+        } 
+    #rightbox{ 
+        float:left; 
+        background:gray; 
+        margin: 30px 30px 30px 15px; 
+        height:200px;
+        border: 2px solid black;
+        font-family:sans-serif; 
+        } 
+    #c{
+    	float:right;  
+        background:pink;
+        border: 2px solid black;
+        width:120px; 
+        height:30px;
+        text-align: center;
+        font-size: 30px;
+        font-family:sans-serif;
+    }
+
+    #b{
+    	float:right;  
+        background:red;
+        border: 2px solid black;
+        width:120px; 
+        height:30px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        font-family:sans-serif;
+    }
+
+    #s{
+    	float:right;  
+        background:yellow;
+        border: 2px solid black;
+        width:120px; 
+        height:30px;
+        text-align: center;
+        font-size: 30px;
+        font-family:sans-serif;
+    }
+    #t {
+    	clear: both;
+    	font-size: 140%;
+    	text-align: center;
+    	font-family:sans-serif;
+    }
+
+    @media (min-width: 992px) {
+    #leftbox { 
+        width:30.8%; 
+        } 
+    #middlebox{  
+        width:30.8%;
+        } 
+    #rightbox{ 
+        width:30.8%;
+        } 
+
+  }
+
+    @media (min-width: 768px) and (max-width: 991px) {
+    #leftbox { 
+        width:45%;
+        } 
+    #middlebox{  
+        width:45%;
+        } 
+    #rightbox{ 
+        width:95%;
+
+  }
+
+    @media (max-width: 767px) {
+    #leftbox { 
+        width:95%; 
+        } 
+    #middlebox{  
+        width:95%; 
+        } 
+    #rightbox{ 
+        width:95%;
+        } 
+
+
+  }
